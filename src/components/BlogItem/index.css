@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+.blog-item {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.blog-img {
+  width: 100%;
+  border: 1px solid #8e8e8e;
+  border: 15px;
+  height: 175px;
+}
+
+.blog-link {
+  text-decoration: none;
+  border: 1px solid #8e8e8e;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 990px) {
+  .blog-item {
+    flex-direction: row;
+    width: 660px;
+    height: 170px;
+    margin: 15px;
+  }
+  .blog-img {
+    width: 40%;
+    border: 1px solid #8e8e8e;
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+}
+
+.avt-img {
+  width: 25px;
+  border-radius: 50%;
+}
+
+.blog-topic {
+  font-size: 16px;
+  color: #8e8e8e;
+  font-weight: 500;
+}
+
+.avatar-container {
+  display: flex;
+  gap: 10px;
+}
+
+.blog-title {
+  font-size: 20px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.avatar-title {
+  font-size: 14px;
+  color: #8e8e8e;
+}

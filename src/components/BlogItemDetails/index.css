@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+
+.author-img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.details-img {
+  width: 100%;
+  height: 150px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 767px) {
+  .details-img {
+    width: 100%;
+    height: 300px;
+  }
+  .details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+}
+
+.blog-details {
+  width: 100%;
+}
+
+.details-author-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.details-title {
+  color: #2f4f4f;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+}
+
+.author-name {
+  color: #000000;
+  font-size: 15px;
+}
+
+.detail-content {
+  color: #d3d3d3;
+  font-weight: 600;
+  font-size: 20px;
+}
